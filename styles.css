@@ -1,7 +1,10 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @charset "UTF-8";
 .bg-mohxi {
-  background-color: #eadffc !important;
+  background-color: #EAE2FE !important;
+}
+.bg-mohxidark{
+  background-color:#B7ABD8 !important;
 }
 
 /*!
