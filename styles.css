@@ -1,3 +1,4 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
 @charset "UTF-8";
 .bg-dark {
   background-color: #eadffc !important;
