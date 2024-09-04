@@ -1,0 +1,33 @@
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: none; /* Hidden by default */
+}
+
+.cookie-consent p {
+    margin: 0;
+    padding: 0;
+}
+
+.cookie-consent a {
+    color: #EAE2FE;
+}
+
+.accept-button {
+    background-color: #EAE2FE;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}

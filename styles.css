@@ -1,10 +1,14 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
 @charset "UTF-8";
+@import "/styles.scss";
+
+
+
 .bg-mohxi {
   background-color: #EAE2FE !important;
 }
-.bg-mohxidark{
-  background-color:#B7ABD8 !important;
+
+.bg-mohxidark {
+  background-color: #B7ABD8 !important;
 }
 
 /*!
@@ -493,7 +497,8 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+-webkit-appearance: none;
+appearance: none;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -550,7 +555,8 @@ legend + * {
 }
 
 [type=search] {
-  -webkit-appearance: textfield;
+-webkit-appearance: none;
+appearance: none;
   outline-offset: -2px;
 }
 
@@ -572,7 +578,8 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
+-webkit-appearance: none;
+appearance: none;
 }
 
 output {
