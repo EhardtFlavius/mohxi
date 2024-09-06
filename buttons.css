@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
 :root {
-  --glow-color: hsl(222, 96%, 47%);
+  --glow-color: hsl(273, 73%, 55%);
 }
 
 .glowing-btn {
@@ -11,10 +11,10 @@
   padding: 0.35em 1em;
   border: 0.15em solid var(--glow-color);
   border-radius: 0.45em;
-  background: rgba(255, 225, 31, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   perspective: 2em;
   font-family: "Raleway", sans-serif;
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 900;
   letter-spacing: 1em;
 
